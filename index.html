@@ -1,0 +1,250 @@
+<!-- TODO: USE HERO IMAGE
+           implement scrollapsy 
+
+
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <script src="https://tinyurl.com/2p9w5adj"></script>
+    <!-- TODO: Replace this with your title -->
+    <title>Sai's Portfolio</title> 
+
+    <!-- my fevicon -->
+
+    <link rel="icon" type="image/x-icon" sizes="32x32"  
+            href="img/bio-image.jpeg">
+    
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+      crossorigin="anonymous">
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+      <link href="style.css" rel="stylesheet" type="text/css" /> 
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+  </head>
+
+  <body>
+  <!-- TODO: Paste Navbar code and customize links -->  
+
+  <div class="container">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home-target"> <span id="home-icon"><i class="bi bi-house"></i></span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-  expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#mission-section">Mission</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#inspiration-section">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact-section">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero section -->
+    
+	<section id="hero-section">
+    <div id="home-target"></div>
+    <section class="hero-background">
+      <div class="container">
+        <div id="headshot" class="d-flex flex-column mb-3 justify-content-evenly align-items-center flex-wrap" data-aos="zoom-in">
+          <div class="p-2" ><img id="myimg"   src="img/headshot-image.jpeg" alt="my image"></div>
+          <div id="hero__title" class="p-2">Sai Roshan Rao Nelavalli</div>
+          <div id="hero__subtitle" class="p-2">Lifelong learner!</div>
+        </div>
+      </div> 
+    </section>
+	</section>
+  
+	<!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <div class="container-fluid">
+      <div class="container">
+        <p id="mission-heading" class="h3 text-center">Mission</p>
+      </div>
+      
+      <div id="my-mission"  class="row" >
+        <div class="col-12 col-md-4">
+          <img id="mission-img"  src="img/mission-image.png" alt="my image"  >
+        </div>
+        <div id="mission-paragraph" class="col-12 col-md-8">
+I'm an international student from India who came all the way here hoping for a better future. Future for me is not about money it's a better lifestyle, better knowledge and better exploration. My mission is my better future and givng back to society.
+<br>
+<br>
+ I'm interested a lot in Computer Science. I used to try little code snippets myself and was very happy when they worked as I expected them to be. After people started grading and judging my interest based on the time, I totally lost interest in it. Web development class helped me gain back my interest. The same way, I want to make people interested in Developing awsome sites and programs by building a community that helps everyon who wants to code. 
+          </p> 
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+     <h2 id="skills-heading" class="h2 text-center">Skills</h2>
+    <div id="skills-container" class="container">
+      <div class="div" data-aos="zoom-in">
+        <div id="skills-card" class="card" >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="card-img-top" alt="HTML5 ICON">
+            <p class="card-text">Structuring websites using HTML</p>
+        </div>
+      </div>
+      <div class="div" data-aos="zoom-in">
+        <div id="skills-card" class="card" >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="card-img-top" alt="CSS3 ICON">
+          <p class="card-text">Styling websites to look stunning using HTML</p>
+        </div>
+      </div>
+      <div class="div" data-aos="zoom-in">
+       <div id="skills-card"  class="card" >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" class="card-img-top" alt="BOOTSTRAP ICON">
+          <p class="card-text">Using bootstrap framework to develop responsive professional looking websites</p>
+        </div>
+      </div>
+      <div class="div"  data-aos="zoom-in">
+        <div id="skills-card"   class="card" >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" class="card-img-top" alt="Java icon">
+           <p class="card-text">create well performed applications using java</p>
+        </div>
+      </div>
+      <div class="div"  data-aos="zoom-in">
+        <div id="skills-card" class="card" >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="card-img-top" alt="C++ ICON">     <p class="card-text">create well performed online applications using C++</p>
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section">
+    <h2 id="inspiration-heading" class="h2 text-center">Inspiration</h2>
+    <div class="container">
+  		<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/inspiration1.jpg" class="d-block w-100" alt="inspiration-1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>It's not about ideas. It's about making ideas happen</h5>
+        <p> - Scott Belsky</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/inspiration2.jpg" class="d-block w-100" alt="inspiration-2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>A person who never made a mistake never tried anything new</h5>
+        <p>-Albert Einstein</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/inspiration3.jpg" class="d-block w-100" alt="inspiration-3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The more successful you are The more you need to learn and grow. Your commitment to learning has to be continuous and unrelenting</h5>
+        <p>-John Donaho</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <h2 id="contact-heading" class="h2 text-center">Contact Me</h2>
+    <div id="contact-container" >
+      <div class="div" data-aos="slide-right">
+        <div class="card" >
+          <a href= "https://www.instagram.com/roshan_rao_n/" target="_new"><i id="contact-card" class="bi bi-instagram"></i> </a>
+        </div>
+      </div>
+      <div class="div" data-aos="zoom-in">
+        <div class="card" >
+          <a href= "mailto: snelaval@asu.edu" target="_new"><i id="contact-card"  class="bi bi-envelope-at"></i></a>
+        </div>
+      </div>
+      <div class="div" data-aos="slide-left">
+        <div class="card" >
+          <a href= "https://www.linkedin.com/in/sai-roshan-rao-nelavalli-361652207/" target="_new"><i id="contact-card" class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <div>&copy; Sai Roshan Rao Nelavalli 2023</div>
+  </section>
+
+  <!-- 
+		TODO: Paste Bootstrap JavaScript script tag from:
+		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+	-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
+
+<!-- TODO: Describe what you did to add SIZZLE below!
+
+I added animate on scroll to my skills and contact cards.
+I used the parallax background for my hero image
+I made my navbar items enlarge when hovered
+
+
+
+
+-->
